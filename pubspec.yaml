@@ -1,0 +1,43 @@
+name: gallery_view
+description: A plugin for shwoing list of images in exactly looging in gallery view.
+version: 1.0.0+1
+homepage: https://github.com/nilay7798/image_gallery
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.1.0
+  photo_view: ^0.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  e2e: ^0.7.0
+  test: any
+# For information on the generic Dart part of this file, see the
+
+# The following section is specific to Flutter.
+flutter:
+  # This section identifies this Flutter project as a plugin project.
+  # The 'pluginClass' and Android 'package' identifiers should not ordinarily
+  # be modified. They are used by the tooling to maintain consistency when
+  # adding or updating assets for this project.
+  plugin:
+    platforms:
+      android:
+        package: com.example.gallery_view
+        pluginClass: GalleryViewPlugin
+      ios:
+        pluginClass: GalleryViewPlugin
+
+ 
+
+  # To add custom fonts to your plugin package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+
